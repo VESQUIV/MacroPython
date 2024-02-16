@@ -35,6 +35,10 @@ while True:
         sys.stderr = salida_archivo
         print('TXT iniciado con exito')
 
+       # Redirigir la salida estándar y la salida de error a los archivos
+        sys.stdout = salida_archivo
+        sys.stderr = salida_archivo
+        print('TXT iniciado con exito')
 
 
 
